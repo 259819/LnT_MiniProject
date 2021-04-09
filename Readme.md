@@ -1,5 +1,7 @@
 # SDLC Activity Based Learning
-![](https://github.com/259819/259819-Mini-Project/blob/main/1_Requirements/Studenttempl.jpg)
+![Student Record System](https://github.com/259819/259819-Mini-Project/blob/main/1_Requirements/Studenttempl.jpg)
+
+Student Record System
 
 Visit [Pages for Report -optional](using github.io option)
 
