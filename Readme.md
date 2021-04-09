@@ -1,5 +1,5 @@
 # SDLC Activity Based Learning
-![Student Record System](https://github.com/259819/259819-Mini-Project/blob/main/1_Requirements/Studenttempl.jpg)
+![](https://github.com/259819/LnT_MiniProject/blob/master/Images/Studenttempl.jpg)
 
 Student Record System
 
@@ -33,7 +33,7 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 4. ...
 
 ## Learning Resources
-1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatshee
 2. [markdownBasics](https://guides.github.com/features/mastering-markdown/)
 3. [git inspector](https://github.com/ejwa/gitinspector.git)
 4. [github workflow](https://docs.github.com/en/actions/learn-github-action)
