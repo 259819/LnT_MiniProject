@@ -43,7 +43,7 @@ Automated SRS helps to avoid those issues. SRS refers to a number of efficient a
 ## Defining Our System
     -- TBD
 ## SWOT ANALYSIS
-![SWOT-Sample](Link to Pic)
+![**STUDENT RECORD SYSTEM**](https://github.com/259819/LnT_MiniProject/blob/master/Images/Swot/Slide1.PNG)
 
 # 4W&#39;s and 1&#39;H
 
