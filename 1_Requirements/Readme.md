@@ -7,7 +7,7 @@
 -A computerized Student Record System will eliminate those cumbersome tasks and will improve efficiency by great extent.
 
 ## Research
-There are 100s and 1000s of student studying in educational institutes and compare to those numbers, the strengh of staff and management is way less. Pen-paper based management of student record is feasible and was in existence in past and is still in practice in some rural areas but with increase in number of youths, it has become very time consuming and labourous task. Records which are maintained for future help becomes a source of stress.
+There are 100s and 1000s of students studying in educational institutes and compare to those numbers, the strengh of staff and management is way less. Pen-paper based management of student record is feasible and was in existence in past and is still in practice in some rural areas but with increase in number of youths, it has become very time consuming and labourous task. Records which are maintained for future help becomes a source of stress.
 
 Automated SRS helps to avoid those issues. SRS refers to a number of efficient automated systems designed for recording student data and perform functions like display, modify, delete, update save etc. Some Student Record Systems are made for general purpose while some Student Record System are made for specific purpose like exam performance records,  progress records etc.
 
@@ -56,6 +56,33 @@ Automated SRS helps to avoid those issues. SRS refers to a number of efficient a
    -ICSE(The Central Board of Secondary Education), CBSE(The Central Board of Secondary Education), State Boards
    
    ![](https://github.com/259819/LnT_MiniProject/blob/master/Images/define.png)
+   
+   
+   **Explanation**
+   
+   
+   Student Record System holds the capability to perform following functions:
+   
+  
+   -Create a patient record
+
+
+   -Delete a patient record
+
+
+   -Read a patient record
+
+
+   -Update a patient record
+
+
+   -Save record to file
+
+  
+   -Read record from file
+  
+  
+   Other benefits of Student Record System is that it can communicate with other Record Systems interms of exchange of data. The System is managed by a operator or an Admin.
    
  
 ## SWOT ANALYSIS
