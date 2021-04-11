@@ -41,7 +41,23 @@ Automated SRS helps to avoid those issues. SRS refers to a number of efficient a
 ![Description](Link to Pic)
 -- Content 
 ## Defining Our System
-    -- TBD
+   **Assumptions**
+   
+   Few systems already exists in the network of institutes and other high level  bodies with which our Student Record System will interact.
+   
+   For example: 
+   
+   -Student Record and Management Systems of NAAC(NATIONAL ASSESSMENT AND ACCREDITATION COUNCIL)
+   
+   -Student Record and Management Systems of NBA(The National Board of Accreditation)
+   
+   -AICTE(All India Council for Technical Education )
+   
+   -ICSE(The Central Board of Secondary Education), CBSE(The Central Board of Secondary Education), State Boards
+   
+   ![](https://github.com/259819/LnT_MiniProject/blob/master/Images/define.png)
+   
+ 
 ## SWOT ANALYSIS
 ![**STUDENT RECORD SYSTEM**](https://github.com/259819/LnT_MiniProject/blob/master/Images/Swot/Slide1.PNG)
 
