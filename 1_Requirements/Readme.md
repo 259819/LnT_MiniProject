@@ -115,9 +115,17 @@
 
 # Detail requirements
 ## High Level Requirements:
---- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
 
+-- ID | Description | Status (Implemented/Future)
+------ |-----------| --------------
+HR01 | The admin should be able to add new student records| Technical-Implemented
+HR02 | The admin should be able to update the student records| Technical-Implemented
+HR03 | The admin should be able to delete the student records| Technical-Implemented
+HR04 | The admin should be able to read the student records| Technical-Implemented
+HR05 | The admin should be able to save the student record to file| Technical-Implemented
+HR06 | The admin shoould be able to read student data from the file| Technical-Implemented
+HR07 | There should be no data loss in case of system failure | Future
+HR08 |There should be no data breach or leakage and the data should be safe| Future
 
 ##  Low level Requirements:
 --- TBD in Tabular Format 
