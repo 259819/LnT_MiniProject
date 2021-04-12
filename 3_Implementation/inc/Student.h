@@ -8,8 +8,8 @@
  * @copyright Copyright (c) 2021
  * 
  */
-#ifndef __Student_H__
-#define __Student_H__
+#ifndef __STUDENT_H__
+#define __STUDENT_H__
 
 enum max_lengths {
     MAX_NAME_LEN = 32,
@@ -29,3 +29,5 @@ typedef struct Student_t{
     char roll_no[MAX_ROLL_NO_LEN];
 
 }Student_t;
+
+#endif  //__STUDENT_H__
