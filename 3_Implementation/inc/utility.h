@@ -19,6 +19,6 @@
 #include "Student.h"
 
 void get_data(char *name);
-void get_contact_details(Student_t *Student);
+void get_Student_details(Student_t *Student);
 
 #endif  //__UTILITY_H__
