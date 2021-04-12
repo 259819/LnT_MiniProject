@@ -13,6 +13,6 @@
 
 #include "Student.h"
 
-int Search_Student(const char* name);
+int Search_Student(const char* roll_no);
 
 #endif  //__SEARCH_STUDENT_H__
