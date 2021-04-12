@@ -14,7 +14,7 @@ int Search_Student(const char *roll_no) {
   Student_t Student;
   FILE *f;
 
-  f = fopen("Search_Student.bin", "rb");
+  f = fopen("Students.bin", "rb");
   if (f == NULL) {
     return -2;
   }

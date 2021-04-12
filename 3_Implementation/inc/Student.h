@@ -24,7 +24,7 @@ typedef struct Student_t{
     char name[MAX_NAME_LEN];
     char standard[MAX_CLASS_LEN];
     char email_id[MAX_EMAIL_ID_LEN];
-    float GPA;
+    char GPA;
     char sports[MAX_SPORTS_LEN];
     char roll_no[MAX_ROLL_NO_LEN];
 
