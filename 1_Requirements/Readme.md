@@ -38,8 +38,15 @@
 
 
 ## Cost and Features
-![Description](Link to Pic)
--- Content 
+
+--Time | Feature | Cost(per 
+------|----------|---------
+Before 1998| Paper Based Management System(on an average, a school used 600000 pages every year and cost per page  0.25 INR)| 600K INR
+1995-1998| Introduction of Computer Based Record Management System Method(1995 patent filed and 1998 patent granted) | 500k INR
+1998-2005| Expansion of Computer usage in schools, academies and institutes | 1000k INR
+Present | updated software and maintainance | 150k INR(per 1000 Students)
+
+
 ## Defining Our System
    **Assumptions**
    
