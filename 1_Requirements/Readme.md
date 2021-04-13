@@ -123,7 +123,7 @@ Present | updated software and maintainance | 150k INR(per 1000 Students)
 # Detail requirements
 ## High Level Requirements:
 
--- ID | Description | Status (Implemented/Future)
+ ID | Description | Status (Implemented/Future)
 ------ |-----------| --------------
 HR01 | The admin should be able to add new student records| Technical-Implemented
 HR02 | The admin should be able to update the student records| Technical-Implemented
@@ -135,5 +135,11 @@ HR07 | There should be no data loss in case of system failure | Future
 HR08 |There should be no data breach or leakage and the data should be safe| Future
 
 ##  Low level Requirements:
---- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
+ID | Description | HLR-ID | Status
+------|-------------|--------|--------
+LR01 |New Records shall be added by providing all the asked information and the roll no. should be unique or else student record should not be accepted|HR01|Implemented
+LR02 |If user searches for an invalid Roll no. ,"no record found!" message should be displayed|HR04|Implemented
+LR03| To modify a record, user needs to search by name, if no record found, print the message"no record found" else if modification is successful then print "modification successful"|HR02|Implemented
+LR04|User needs to search by name for the student to delete the record. If no record is found then display the message "no record found"|HR03|Implemented
+LR05| when the system  is turned on, all the options should be displayed on screen(add,modify,delete,search,exit). If incorrect input is given by user then, print the message "selected option unavailable"| HRxx|Implemented
+
