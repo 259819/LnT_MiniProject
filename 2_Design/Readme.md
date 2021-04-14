@@ -2,9 +2,14 @@
 
 ## High Level Design 
 
---- TBD Structural and Behavioural Diagram
-![HighLevelStructuralDiagram](Link to Pic)
-![HighLevelBehaviouralDiagram](Link to Pic)
+**Architectural Diagram**
+![](https://github.com/259819/LnT_MiniProject/blob/master/Images/highlevel.png)
+
+**Component Diagram**
+![](https://github.com/259819/LnT_MiniProject/blob/master/Images/LLD.png)
+
+**Usecase diagram**
+![](https://github.com/259819/LnT_MiniProject/blob/master/Images/comp_dia.png)
 
 ## Low Level Design 
 
