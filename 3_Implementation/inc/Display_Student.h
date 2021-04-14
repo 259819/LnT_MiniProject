@@ -14,6 +14,6 @@
 
 #include "Student.h"
 
-int Display_Student(void);
+int display_Student(void);
 
 #endif  //__DISPLAY_STUDENT_H__

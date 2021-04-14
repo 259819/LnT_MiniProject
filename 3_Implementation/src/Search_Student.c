@@ -22,7 +22,7 @@ int Search_Student(const char *roll_no) {
   while (fread(&Student, sizeof(Student_t), 1, f) == 1) {
     if (strcmp(Student.roll_no, roll_no) == 0) {
       printf("\n details for %s:\n", roll_no);
-      printf("Name = %s\nStandard = %s\nEmail ID = %s\nGPA = %f\nsports activity = %s\n\n ", Student.name,
+      printf("Name = %s\nStandard = %s\nEmail ID = %s\nGPA = %s\nsports activity = %s\n\n ", Student.name,
              Student.standard, Student.email_id,Student.GPA,Student.sports);
       fclose(f);
       return 0;
