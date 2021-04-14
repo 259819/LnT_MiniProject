@@ -93,7 +93,7 @@ Present | updated software and maintainance | 150k INR(per 1000 Students)
    
  
 ## SWOT ANALYSIS
-![**STUDENT RECORD SYSTEM**](https://github.com/259819/LnT_MiniProject/blob/master/Images/Swot/Slide1.PNG)
+![**STUDENT RECORD SYSTEM**](https://github.com/259819/LnT_MiniProject/blob/master/Images/Slide1.PNG)
 
 # 4W&#39;s and 1&#39;H
 
