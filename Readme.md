@@ -1,6 +1,6 @@
 # SDLC Activity Based Learning
 
-Student Record System
+**Student Record System**
 
 ![](https://github.com/259819/LnT_MiniProject/blob/master/Images/Studenttempl.jpg)
 
