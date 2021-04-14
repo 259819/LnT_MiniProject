@@ -25,7 +25,7 @@ Folder             | Description
 
 PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-259819 | Preet K Pandit  | Feature A, B etc    | 2    | 2 | 5 | 5     
+259819 | Preet K Pandit  | Create, Update, Delete, Read, Search Student Record    | 2    | 2 | 5 | 5     
    
 
 ## Challenges Faced and How Was It Overcome
