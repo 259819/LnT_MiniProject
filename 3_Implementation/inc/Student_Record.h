@@ -18,6 +18,6 @@
 #include "Delete_Student.h"
 #include "Modify_Student.h"
 #include "Search_Student.h"
-#include "Display_Student.h"
+#include "display_Student.h"
 
 #endif  //__Student_Record_H__
