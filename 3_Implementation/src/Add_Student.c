@@ -23,7 +23,7 @@ int Add_Student(Student_t *Student) {
   }
   fwrite(Student, sizeof(Student_t), 1, fptr);
 
-  __fpurge(stdin);
+  fflush(stdin);
   fclose(fptr);
 
   return 0;

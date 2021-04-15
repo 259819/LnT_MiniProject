@@ -1,6 +1,8 @@
 # Name of the project
 PROJECT_NAME = SRS
 
+TEST_PROJ_NAME = Test_$(PROJ_NAME)
+
 # Output directory
 BUILD = build
 
@@ -17,7 +19,9 @@ TEST_SRC = ${SRC}\
 test/SRS_Test.c\
 unity/unity.c\
 
-TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
+
+
+
 
 # All include folders with header files
 INC	= -Iinc\
@@ -38,12 +42,12 @@ else
 	  editor = cat
    endif
 endif
-
+TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).$(EXEC)
 #Library Includes
 INCLUDE_LIBS = 
 
 # Project Output name
-PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
+PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).$(EXEC)
 
 # Document files
 DOCUMENTATION_OUTPUT = documentation/html
@@ -55,11 +59,11 @@ $(PROJECT_NAME):all
 .PHONY: run clean test doc all
 
 all: $(SRC) $(BUILD)
-	gcc main.c $(SRC) $(INC) -o $(PROJECT_OUTPUT).out
+	gcc main.c $(SRC) $(INC) -o $(call FixPath,$(PROJECT_OUTPUT).$(EXEC))
 
 # Call `make run` to run the application
 run:$(PROJECT_NAME)
-	./$(PROJECT_OUTPUT).out
+	./$(PROJECT_OUTPUT).$(EXEC)
 
 # Document the code using Doxygen
 doc:
@@ -72,7 +76,8 @@ test:$(BUILD)
 
 # Remove all the built files, invoke by `make clean`
 clean:
-	rm -rf $(BUILD) $(DOCUMENTATION_OUTPUT) contacts.bin
+	$(RM) *.(EXEC)
+	$(RM) Students.bin
 
 # Create new build folder if not present
 $(BUILD):

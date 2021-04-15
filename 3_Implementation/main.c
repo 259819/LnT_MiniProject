@@ -21,7 +21,7 @@ int main() {
         \n4.Display Record \n5.Search for a Record\n6.Exit\n");
 
     printf("Enter your choice: ");
-    __fpurge(stdin);
+    fflush(stdin);
     scanf("%d", &choice);
 
     switch (choice) {
@@ -114,7 +114,7 @@ int main() {
         char name[MAX_NAME_LEN] = "";
 
         printf("\nEnter name of Student to search\n");
-        __fpurge(stdin);
+        fflush(stdin);
         get_data(name);
 
         switch (Search_Student(name)) {
