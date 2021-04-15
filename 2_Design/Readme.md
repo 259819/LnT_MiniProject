@@ -1,8 +1,12 @@
 # Design
 
-## High Level Design 
+## High Level Design                               
 
 **Architectural Diagram**
+
+
+
+
 ![](https://github.com/259819/LnT_MiniProject/blob/master/Images/highlevel.png)
 
 **Component Diagram**
