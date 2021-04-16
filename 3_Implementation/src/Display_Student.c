@@ -11,7 +11,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "display_Student.h"
+#include<../inc/Student.h>
+
 
 int display_Student(void) {
   Student_t Student;

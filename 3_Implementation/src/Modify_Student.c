@@ -8,8 +8,8 @@
  * @copyright Copyright (c) 2021
  * 
  */
-#include "Modify_Student.h"
-#include "utility.h"
+#include<../inc/Student.h>
+
 
 int Modify_Student(char *name, Student_t *update_Student) {
   int result = 0;

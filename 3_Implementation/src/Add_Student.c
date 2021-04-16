@@ -12,8 +12,7 @@
 //#include <stdio_ext.h>
 #include <stdlib.h>
 
-#include "Add_Student.h"
-#include "utility.h"
+#include<../inc/Student.h>
 
 int Add_Student(Student_t *Student) {
 

@@ -8,8 +8,8 @@
  * @copyright Copyright (c) 2021
  * 
  */
-#include "Delete_Student.h"
-#include "utility.h"
+
+#include<../inc/Student.h>
 
 int Delete_Student(const char *name) {
   Student_t Student;

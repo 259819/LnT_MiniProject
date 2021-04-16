@@ -8,9 +8,10 @@
  * @copyright Copyright (c) 2021
  * 
  */
-#include "utility.h"
+#include<../inc/Student.h>
 
-int Search_Student(const char *roll_no) {
+
+int Search_Student(const char *name) {
   Student_t Student;
   FILE *f;
 
@@ -20,8 +21,8 @@ int Search_Student(const char *roll_no) {
   }
 
   while (fread(&Student, sizeof(Student_t), 1, f) == 1) {
-    if (strcmp(Student.roll_no, roll_no) == 0) {
-      printf("\n details for %s:\n", roll_no);
+    if (strcmp(Student.name, name) == 0) {
+      printf("\n details for %s:\n", name);
       printf("Name = %s\nStandard = %s\nEmail ID = %s\nGPA = %s\nsports activity = %s\n\n ", Student.name,
              Student.standard, Student.email_id,Student.GPA,Student.sports);
       fclose(f);

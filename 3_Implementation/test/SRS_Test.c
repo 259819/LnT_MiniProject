@@ -1,5 +1,6 @@
 #include "unity.h"
-#include "Student_Record.h"
+#include<../inc/Student.h>
+
 
 /* Required by the unity test framework */
 void setUp(){}
@@ -32,7 +33,7 @@ void test_Search_Student(void) {
 }
 void test_Display_Student(void) 
 { 
-  TEST_ASSERT_EQUAL(1, Display_Student()>0);
+  TEST_ASSERT_EQUAL(1, display_Student()>0);
 }
 
 int main(void)

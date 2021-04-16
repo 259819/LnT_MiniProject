@@ -8,8 +8,8 @@
  * @copyright Copyright (c) 2021
  * 
  */
-#include "utility.h"
-#include "Student.h"
+#include<../inc/Student.h>
+
 
 void get_data(char *name) {
 

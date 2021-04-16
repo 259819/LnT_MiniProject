@@ -11,6 +11,11 @@
 #ifndef __STUDENT_H__
 #define __STUDENT_H__
 
+#include <stdio.h>
+//#include <stdio_ext.h>
+#include <stdlib.h>
+#include<string.h>
+
 enum max_lengths {
     MAX_NAME_LEN = 32,
     MAX_CLASS_LEN = 4,
@@ -29,5 +34,26 @@ typedef struct Student_t{
     char roll_no[MAX_ROLL_NO_LEN];
 
 }Student_t;
+int Add_Student(Student_t *Student);
+
+void create_new_Student(Student_t *Student);
+
+
+int Delete_Student(const char* name);
+
+
+int display_Student(void);
+
+
+int Modify_Student(char *name, Student_t* update_Student);
+
+
+int Search_Student(const char* name);
+
+
+void get_data(char *name);
+
+
+void get_Student_details(Student_t *Student);
 
 #endif  //__STUDENT_H__

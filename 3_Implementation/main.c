@@ -1,4 +1,5 @@
-#include "Student_Record.h"
+#include<../inc/Student.h>
+
 
 typedef enum options {
   NONE,
