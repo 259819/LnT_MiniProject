@@ -33,7 +33,7 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 2. I was facing problems in designing the low level diagrams but reference from the other colleagues diagram helped me better understand it.
 3. I was getting errors in the unit testing because of different header files so by merging all header files into one single file  helped me solve this issue.
 4. Issue with valgrind.
-5. Incompatibility of few libraries used in linux with windows OS. The issue was solved by finding alternative functions of those libraries for windows.
+5. Incompatibility of few libraries used in linux with windows OS. The issue  was solved by finding alternative functions of those libraries for windows.
 
 ## Learning Resources
 1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatshee
