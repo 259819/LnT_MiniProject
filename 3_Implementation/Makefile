@@ -79,9 +79,9 @@ test:$(BUILD)
 coverage:$(SRC) 
 	
 	gcc -fprofile-arcs -ftest-coverage main.c $(INC) $(SRC)  -o $(COVERAGE_TEST_NAME).$(EXEC)
-	./$(COVERAGE_TEST_NAME).$(EXEC) < input_redirect.txt
-	gcov -a main.c 
-	$(editor)main.c.gcov
+#./$(COVERAGE_TEST_NAME).$(EXEC) < input_redirect.txt
+	gcov -a ./main.c 
+	$(editor) main.c.gcov
 
 #only for linux
 valgrind:
