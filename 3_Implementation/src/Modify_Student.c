@@ -10,7 +10,13 @@
  */
 #include<../inc/Student.h>
 
-
+/**
+ * @brief modifying the record of already existing student
+ * 
+ * @param name 
+ * @param update_Student 
+ * @return int 
+ */
 int Modify_Student(char *name, Student_t *update_Student) {
   int result = 0;
   FILE *fptr;

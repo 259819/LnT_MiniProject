@@ -14,7 +14,14 @@
 
 #include<../inc/Student.h>
 
-int Add_Student(Student_t *Student) {
+/**
+ * @brief adding the record of new student
+ * 
+ * @param Student 
+ * @return int 
+ */
+
+int Add_Student(Student_t *Student) {  
 
   FILE *fptr;
   if ((fptr = fopen("Students.bin", "ab+")) == NULL) {
@@ -27,8 +34,13 @@ int Add_Student(Student_t *Student) {
 
   return 0;
 }
+/**
+ * @brief Create a new Student object
+ * 
+ * @param Student 
+ */
 
-void create_new_Student(Student_t *Student) {
+void create_new_Student(Student_t *Student) { 
   printf("\nEnter name: ");
   get_data(Student->name);
   printf("\nEnter the Standard: ");

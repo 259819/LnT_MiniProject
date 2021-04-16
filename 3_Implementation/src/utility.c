@@ -9,7 +9,11 @@
  * 
  */
 #include<../inc/Student.h>
-
+/**
+ * @brief Get the data object
+ * 
+ * @param name 
+ */
 
 void get_data(char *name) {
 
@@ -36,6 +40,11 @@ void get_data(char *name) {
   *(name + i) = '\0';
 }
 
+/**
+ * @brief Get the Student details object
+ * 
+ * @param Student 
+ */
 void get_Student_details(Student_t *Student) {
   printf("\nEnter name: ");
   fflush(stdin);

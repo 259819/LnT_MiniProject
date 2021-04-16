@@ -12,7 +12,11 @@
 #include <stdlib.h>
 
 #include<../inc/Student.h>
-
+/**
+ * @brief displaying the record of already existing student
+ * 
+ * @return int 
+ */
 
 int display_Student(void) {
   Student_t Student;

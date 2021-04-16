@@ -10,7 +10,12 @@
  */
 #include<../inc/Student.h>
 
-
+/**
+ * @brief Searching the name of student in the file
+ * 
+ * @param name 
+ * @return int 
+ */
 int Search_Student(const char *name) {
   Student_t Student;
   FILE *f;
