@@ -1,0 +1,27 @@
+var NAVTREEINDEX0 =
+{
+"_add___student_8c.html":[0,0,0,0,0,0,0,0,0,0],
+"_add___student_8c.html#a32b0a8ab314f49733379014f82841413":[0,0,0,0,0,0,0,0,0,0,0],
+"_add___student_8c.html#afe88013aac80901255b3760a3847e7c0":[0,0,0,0,0,0,0,0,0,0,1],
+"_delete___student_8c.html":[0,0,0,0,0,0,0,0,0,1],
+"_delete___student_8c.html#a42f7da1992791de26c065ea205a4c010":[0,0,0,0,0,0,0,0,0,1,0],
+"_display___student_8c.html":[0,0,0,0,0,0,0,0,0,2],
+"_display___student_8c.html#a7cd5d607433901664da5bfa8e04a26de":[0,0,0,0,0,0,0,0,0,2,0],
+"_modify___student_8c.html":[0,0,0,0,0,0,0,0,0,3],
+"_modify___student_8c.html#a04cd8df1c0e6a9051fbb02673bc8c201":[0,0,0,0,0,0,0,0,0,3,0],
+"_search___student_8c.html":[0,0,0,0,0,0,0,0,0,4],
+"_search___student_8c.html#a920925a1a8f78da09d74f17417bb9689":[0,0,0,0,0,0,0,0,0,4,0],
+"dir_12d99f977b891891f090dc57a369a0ac.html":[0,0,0,0,0,0,0],
+"dir_361e16d51ba2b38c273c9b0a8ca79468.html":[0,0,0,0,0],
+"dir_6aa3f93029d62495e5907381fd6f7877.html":[0,0,0,0],
+"dir_7ddaf30317cef4035ffae165e8d19c52.html":[0,0,0,0,0,0,0,0,0],
+"dir_ad62c308568a0d1b9fb4d513db068c50.html":[0,0,0,0,0,0],
+"dir_d522931ffa1371640980b621734a4381.html":[0,0,0],
+"dir_e8440cbd3adfa09370c5d4961db479c2.html":[0,0,0,0,0,0,0,0],
+"files.html":[0,0],
+"index.html":[],
+"pages.html":[],
+"utility_8c.html":[0,0,0,0,0,0,0,0,0,5],
+"utility_8c.html#a836b0f28d8d4ef05eff9c6914f3ceccc":[0,0,0,0,0,0,0,0,0,5,0],
+"utility_8c.html#af07609081700ca26edcacd38b1be227b":[0,0,0,0,0,0,0,0,0,5,1]
+};
