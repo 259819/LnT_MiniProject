@@ -3,6 +3,8 @@ PROJECT_NAME = SRS
 
 TEST_PROJ_NAME = Test_$(PROJ_NAME)
 
+COVERAGE_TEST_NAME = coverage_$(PROJECT_NAME)
+
 # Output directory
 BUILD = build
 
@@ -56,7 +58,7 @@ DOCUMENTATION_OUTPUT = documentation/html
 $(PROJECT_NAME):all
 
 # Run the target even if the matching name exists
-.PHONY: run clean test doc all
+.PHONY: run clean test doc all valgrind coverage
 
 all: $(SRC) $(BUILD)
 	gcc main.c $(SRC) $(INC) -o $(call FixPath,$(PROJECT_OUTPUT).$(EXEC))
@@ -74,10 +76,24 @@ test:$(BUILD)
 	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) $(INCLUDE_LIBS)
 	./$(TEST_OUTPUT)
 
+coverage:$(SRC) 
+	
+	gcc -fprofile-arcs -ftest-coverage main.c $(INC) $(SRC)  -o $(COVERAGE_TEST_NAME).$(EXEC)
+	./$(COVERAGE_TEST_NAME).$(EXEC) < input_redirect.txt
+	gcov -a main.c 
+	$(editor)main.c.gcov
+
+#only for linux
+valgrind:
+		./$(PROJECT_NAME).$(EXEC) < input_redirect.txt
 # Remove all the built files, invoke by `make clean`
 clean:
 	$(RM) *.(EXEC)
 	$(RM) Students.bin
+	$(RM) *.gcno
+	$(RM) *.gcov
+	$(RM) *.gcda
+	$(RM) $(BUILD)
 
 # Create new build folder if not present
 $(BUILD):
