@@ -6,7 +6,6 @@
 
 
 
-Visit [Pages for Report -optional](using github.io option)
 
 Build | Code Quality | cppcheck | unit testing
 ------|----------|-------|--------------
