@@ -10,6 +10,12 @@
  */
 
 #include<../inc/Student.h>
+/**
+ * @brief deleting the record of already existing student
+ * 
+ * @param name 
+ * @return int 
+ */
 
 int Delete_Student(const char *name) {
   Student_t Student;
