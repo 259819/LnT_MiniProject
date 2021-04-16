@@ -7,7 +7,7 @@
 
 
 
-Build | Code Quality | cppcheck | unit testing
+Build | Code Quality | cppcheck-Static analysis | unit testing
 ------|----------|-------|--------------
 [![C/C++ CI](https://github.com/259819/LnT_MiniProject/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/259819/LnT_MiniProject/actions/workflows/c-cpp.yml)|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/0ae823626e6442828c84ad084fdab090)](https://www.codacy.com/gh/259819/LnT_MiniProject/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=259819/LnT_MiniProject&amp;utm_campaign=Badge_Grade)|[![cppcheck-action](https://github.com/259819/LnT_MiniProject/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/259819/LnT_MiniProject/actions/workflows/cppcheck.yml)|[![Unit testing](https://github.com/259819/LnT_MiniProject/actions/workflows/uni-test.yml/badge.svg)](https://github.com/259819/LnT_MiniProject/actions/workflows/uni-test.yml)
 
